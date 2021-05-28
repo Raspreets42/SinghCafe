@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import React, { useState } from "react";
+import Header from "./MyComponents/Header";
+import Home from "./MyComponents/Home";
+import Recipe from "./MyComponents/Recipe";
+import About from "./MyComponents/About";
+import Footer from "./MyComponents/Footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="MyFoodApp">
+      <Router>
+        <Header />
+        <Route exact path="/" render={() => {
+          return (
+            <>
+              <Home />
+            </>)
+        }} >
+        </Route>
+        <Switch>
+          <Route exact path="/Recipes" render={() => {
+            return (
+              <>
+                <Recipe />
+              </>)
+          }} >
+          </Route>
+          <Route exact path="/About" render={() => {
+            return (
+              <>
+                <About />
+              </>)
+          }} >
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
