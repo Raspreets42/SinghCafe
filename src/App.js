@@ -23,7 +23,7 @@ function App() {
         }} >
         </Route>
         <Switch>
-          <Route exact path="/Recipes" render={() => {
+          <Route exact path="/Menu" render={() => {
             return (
               <>
                 <Recipe />
