@@ -24,7 +24,7 @@ const Recipe = () => {
     return (
         <div className="container my-4 text-center">
             <div className="row my-4">
-                <div className="col col-md-4">
+                <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd">
                         <img src={imgi1} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
@@ -34,17 +34,17 @@ const Recipe = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col col-md-4">
+                <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd" >
                         <img src={imgi2} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
                             <h4 className="card-title">Idli</h4>
-                            <h5 className="card-text">"Idli is one dish that can never get boring. Happy Eating."</h5>
+                            <h5 className="card-text">"Idli is one that can never get boring."</h5>
                             <h5>Price: $ 4</h5>
                         </div>
                     </div>
                 </div>
-                <div className="col col-md-4">
+                <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd" >
                         <img src={imgi3} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
@@ -54,9 +54,9 @@ const Recipe = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row my-4">
-                <div className="col col-md-4">
+            {/* </div> */}
+            {/* <div className="row my-4"> */}
+                <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd">
                         <img src={imgi4} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
@@ -66,7 +66,7 @@ const Recipe = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col col-md-4">
+                <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd" >
                         <img src={imgi5} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
@@ -76,7 +76,7 @@ const Recipe = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col col-md-4">
+                <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd" >
                         <img src={imgi6} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
@@ -86,9 +86,9 @@ const Recipe = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row">
-                <div className="col col-md-4">
+            {/* </div> */}
+            {/* <div className="row"> */}
+                <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd ">
                         <img src={imgi7} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
@@ -98,17 +98,17 @@ const Recipe = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col col-md-4 ">
+                <div className="col-12 col-sm-6 col-md-4 ">
                     <div className="card crd" >
                         <img src={imgi8} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
                             <h4 className="card-title">Veg Biryani</h4>
-                            <h5 className="card-text">"Biryani Taste , Better then the Rest."</h5>
+                            <h5 className="card-text">"Biryani Taste , Better then the Rest. Happy Eating."</h5>
                             <h5>Price: $ 12 <span className="badge rounded-pill bg-warning text-dark">Yummy</span></h5>
                         </div>
                     </div>
                 </div>
-                <div className="col col-md-4 ">
+                <div className="col-12 col-sm-6 col-md-4 ">
                     <div className="card crd" >
                         <img src={imgi9} className="card-img-top" alt="Not found"  height="120px" />
                         <div className="card-body">
