@@ -1,6 +1,4 @@
-// import logo from './logo.svg';
-// import './App.css';
-import React, { useState } from "react";
+import React from "react";
 import Header from "./MyComponents/Header";
 import Home from "./MyComponents/Home";
 import Recipe from "./MyComponents/Recipe";

@@ -75,8 +75,6 @@ const Recipe = () => {
                         </div>
                     </div>
                 </div>
-            {/* </div> */}
-            {/* <div className="row my-4"> */}
                 <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd">
                         <img src={imgi4} className="card-img-top" alt="Not found"  height="120px" />
@@ -110,8 +108,6 @@ const Recipe = () => {
                         </div>
                     </div>
                 </div>
-            {/* </div> */}
-            {/* <div className="row"> */}
                 <div className="col-12 col-sm-6 col-md-4">
                     <div className="card crd ">
                         <img src={imgi7} className="card-img-top" alt="Not found"  height="120px" />

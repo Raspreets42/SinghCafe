@@ -17,28 +17,28 @@ const Home = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="5000">
-                        <img src={img1} className="d-block w-100" alt="Not found" height="555px"  />
+                        <img src={img1} className="d-block w-100 imgg" alt="Not found" />
                         <div className="carousel-caption d-none d-md-block">
                             <h4 className="blck" >We provide Delicious Foods</h4>
                             <h5 className="blck" >Yummy and Hygienic Food at Low Budget</h5>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
-                        <img src={img2} className="d-block w-100" alt="Not found" height="555px" />
+                        <img src={img2} className="d-block w-100 imgg" alt="Not found" />
                         <div className="carousel-caption d-none d-md-block">
                             <h4 className="blck" >We provide Catering Services</h4>
                             <h5 className="blck" >Our catering services are best and at low Budget</h5>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
-                        <img src={img3} className="d-block w-100" alt="Not found" height="555px" />
+                        <img src={img3} className="d-block w-100 imgg" alt="Not found" />
                         <div className="carousel-caption d-none d-md-block">
                             <h4 className="blck" >We provide Delivering Services</h4>
                             <h5 className="blck" >Our delivering Services are Fast and Safe</h5>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
-                        <img src={img4} className="d-block w-100" alt="Not found" height="555px" />
+                        <img src={img4} className="d-block w-100 imgg" alt="Not found" />
                         <div className="carousel-caption d-none d-md-block">
                             <h4 className="blck" >We provide Tiffin Services</h4>
                             <h5 className="blck" >Our Tiffin Services are Safe and Hygienic</h5>

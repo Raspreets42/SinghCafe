@@ -17,6 +17,31 @@
   border-radius: 10px;
   padding: 10px;
 }
+.imgg {
+  height: 555px;
+}
+@media (min-width : 577px) and (max-width : 768px) {
+  .imgg {
+    height: 480px;
+  }
+}
+@media (min-width : 471px) and (max-width : 576px) {
+  .imgg {
+    height: 375px;
+  }
+}
+@media (min-width : 250px) and (max-width : 470px) {
+  .imgg {
+    height: 250px;
+  }
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+  .navbar-brand{
+    font-size: 15px;
+  }
+}
 .bord1{
   border: 2px solid black;
   border-radius: 10px;
